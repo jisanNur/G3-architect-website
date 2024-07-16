@@ -146,7 +146,7 @@ main > section{
     font-size: 4rem;
     font-weight: 700 ;
 }
-.feature-architect{
+.feature-architect img{
     width: 100%;
 }
 /* some facts related style */
@@ -234,9 +234,7 @@ footer{
     .our-features{
         margin-left: 20px;
     }
-    .feature-architect{
-        width: 100%;
-    }
+    
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
