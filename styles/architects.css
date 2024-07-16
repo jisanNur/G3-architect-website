@@ -15,6 +15,10 @@
 .text-light-gray{
     color:rgb(114, 114, 114);
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 .display-flex{
     display: flex;
 }
@@ -102,10 +106,6 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
 #quick-list{
     font-weight: 500;
 }
@@ -123,7 +123,36 @@ main > section{
         margin-left: 20px;
     }
 }
+/* some facts related style */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.fact-card{
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-descripion{
+    max-width: 540px;
+}
 /* medium size devies */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
