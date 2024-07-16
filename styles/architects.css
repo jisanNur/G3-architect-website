@@ -234,6 +234,9 @@ footer{
     .our-features{
         margin-left: 20px;
     }
+    .feature-architect{
+        width: 100%;
+    }
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
